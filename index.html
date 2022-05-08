@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>lesson-</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+
+			<header class="header"></header>
+			<main class="main">
+				<!-- <form enctype="multipart/form-data" action="#">
+					<label for="text-01">some text</label>
+					<input id="text-01" autocomplete="off" required placeholder="text" name="username" value="" type="text">
+					<input disabled  autocomplete="off" required placeholder="number" name="usernum" value="" type="number">
+					<input  tabindex="1" autocomplete="off" required placeholder="email" name="useremail" value="" type="email">
+					<input autocomplete="off" required placeholder="telefone" name="usertel" value="" type="tel">
+					<input autocomplete="off" required placeholder="data" name="userdata" value="" type="datetime-local">
+					<input autocomplete="off" required placeholder="password" name="userpass" value="" type="password">
+					<input tabindex="2" autocomplete="off" required name="userfile" accept=".png, .jpg" multiple type="file">
+					<input checked name="car" value="1" type="checkbox">
+					<input checked name="color" value="blue" type="radio">
+					<input checked name="color" value="red" type="radio">
+					<textarea name="some-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aut accusantium asperiores quis culpa, fuga debitis corporis repellat ratione, iure, sint quasi modi. Id quae harum consequatur laudantium libero ipsa? </textarea>
+					<select multiple name="color" class="form">
+						<option value="red" selected>red</option>
+						<option selected value="blue">blue</option>
+						<option value="yellow">yellow</option>
+						<option value="green">green</option>
+					</select>
+					<button type="reset">reset</button>
+					<button type="submit">submit</button>
+				</form> -->
+				<!-- <form class="main__form form" action="#">
+					<div class="radiobuttons">
+						<div class="radiobuttons__item">
+							<input id="color_1" autocomplete="off" name="color" class="radiobuttons__input" type="radio">
+							<label for="color_1" class="radiobuttons__label">червоний</label>
+						</div>
+						<div class="radiobuttons__item">
+							<input id="color_2" autocomplete="off" name="color"class="radiobuttons__input" type="radio">
+							<label for="color_2" class="radiobuttons__label">зелений</label>
+						</div>
+
+					</div>
+
+				</form> -->
+
+
+				<div class="main__container">
+					<div class="main_appointment appointment">
+						<form class="appointment__main-form" action="#">
+							<div class="appointment__title">Make an appointment</div>
+							<div class="appointment__form form">
+								<div class="form__items">
+									<div class="form__item">
+										<input class="form__point" name="username" value="" required autocomplete="off" placeholder="Name" type="text">
+									</div>
+									<div class="form__item">
+										<input class="form__point" name="useremail" value="" required autocomplete="off" placeholder="Email" type="email">
+									</div>
+									<div class="form__item">
+										<input class="form__point" name="usertel" value="" required autocomplete="off" placeholder="Phone Number" type="tel">
+									</div>
+									<div class="form__item">
+										<select name="form" class="form__select">
+											<option value="1">Select Service</option>
+											<option value="2">Пункт №1</option>
+											<option value="3">Пункт №2</option>
+											<option value="4">Пункт №3</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="appointment__text">
+								<textarea class="appointment__textarea" placeholder="Tell us about your puppers include his/her name" name="textarea"></textarea>
+							</div>
+							<div class="appointment__btn">
+								<button class="appointment__button" type="submit">Make an Appointment</button>
+							</div>
+
+						</form>
+					</div>
+					<div class="summary">
+						<form enctype="multipart/form-data" action="#" class="summary__container">
+							<div class="summary__header">
+								<div class="summary__titile">Summary</div>
+								<div class="summary__sub-titile">Estimate Shipping and Tax</div>
+								<div class="summary__text">Enter your destination to get a shipping estimate.</div>
+							</div>
+							<div class="summary__form-region form-region">
+								<div class="form-region__item">
+									<div class="form-region__title">Country</div>
+									<div class="form-region__select-container">
+										<select name="country" class="form-region__select">
+											<option value="1" selected>Australia</option>
+											<option value="2">Germany</option>
+											<option value="3">Uzhhorod</option>
+											<option value="4">U.S.A</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-region__item">
+									<div class="form-region__title">State/Province</div>
+									<input autocomplete="off" type="text" name="state" class="form-region__input">
+								</div>
+								<div class="form-region__item">
+									<div class="form-region__title">Zip/Postal Code</div>
+									<input autocomplete="off" type="number" name="state" class="form-region__input">
+								</div>
+
+							</div>
+							<div class="address">
+								<div class="address__title">Standard Rate</div>
+								<div class="address__radio">
+									<input id="address-1" checked type="radio" name="address" value="address-1" class="address__input">
+									<label for="address-1" class="address__label">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+								</div>
+								<div class="address__title"> Pickup from store</div>
+								<div class="address__radio">
+									<input id="address-2" type="radio" name="address" value="address-2" class="address__input">
+									<label for="address-2" class="address__label">1234 Street Adress City Address, 1234 $0.00</label>
+								</div>
+							</div>
+							<div class="main__discount discount">
+								<div class="discount__title">Apply Discount Code</div>
+								<div class="discount__form form-discount">
+									<div class="form-discount__title">Enter discount code</div>
+									<div class="form-discount__element-form">
+										<input autocomplete="off" type="text" name="discount" placeholder="Enter Discount code" class="form-discount__input">
+									</div>
+									<div class="form-discount__button">
+										<button type="submit" class="form-discount__btn button">Apply Discount</button>
+									</div>
+								</div>
+							</div>
+							<div class="main__check check">
+								<div class="check__items">
+									<div class="check__item">
+										<div class="check__title">Subtotal</div>
+										<div class="check__dollar">$13,047.00</div>
+									</div>
+									<div class="check__item">
+										<div class="check__title">Shipping</div>
+										<div class="check__dollar">$21.00</div>
+									</div>
+									<div class="check__sub-title-ship">(Standard Rate - Price may vary depending on the item/destination. Shop Staff will contact you.)</div>
+									<div class="check__item">
+										<div class="check__title">Tax</div>
+										<div class="check__dollar">$1.91</div>
+									</div>
+									<div class="check__item">
+										<div class="check__title">GST (10%)</div>
+										<div class="check__dollar">$1.91</div>
+									</div>
+									<div class="check__item">
+										<div class="check__title">Order Total</div>
+										<div class="check__dollar">$13,068.00</div>
+									</div>
+								</div>
+
+
+								<div class="check__button">
+									<button type="submit" class="check__btn-discount button">Proceed to Checkout</button>
+								</div>
+								<div class="check__button">
+									<button type="submit" class="check__btn-check button">Check out with</button>
+								</div>
+								<div class="check__button">
+									<button type="reset" class="check__btn-address button">Check Out with Multiple Addresses</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="main__regist regist">
+						<form class="regist__form" action="#">
+							<div class="regist__body">
+								<div class="regist__title">Registered Customers</div>
+								<div class="regist__sub-title">If you have an account, sign in with your email address.</div>
+							</div>
+							<div class="regist__items">
+								<div class="regist__item item-regist">
+									<div class="item-regist__title">Email *</div>
+									<div class="item-regist__input">
+										<input autocomplete="off" required type="text" name="form[username]" placeholder="Your Name" class="item-regist__inpt">
+									</div>
+								</div>
+								<div class="regist__item item-regist">
+									<div class="item-regist__title">Email *</div>
+									<div class="item-regist__input">
+										<input autocomplete="off" required type="password" name="form[userpass]" placeholder="Your Password" class="item-regist__inpt">
+									</div>
+								</div>
+							</div>
+							<div class="regist__footer">
+
+								<button type="submit" class="regist__button">Sign In</button>
+
+								<a href="#" class="register__link">Forgot Your Password?</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			</main>
+			<footer class="footer"></footer>
+
+		</div>
+	</body>
+
+</html>
